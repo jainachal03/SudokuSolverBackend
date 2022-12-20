@@ -3,7 +3,7 @@ FROM 3.10.9-alpine3.17
 RUN mkdir -p /backend
 WORKDIR /backend
 
-COPY ./ ./
+COPY . ./
 
 RUN pip install requirments.txt
 
